@@ -1,0 +1,26 @@
+Control 1
+Fecha: 27/03/2015
+
+Tiempo: 10 minutos
+
+
+Del sgte código:
+var loader:Loader = new Loader();
+loader.load(new URLRequest(url));
+	Si quiero agregar eventos de Carga Completa, ¿cuál es la correcta?
+loader.contentLoaderInfo.addEventListener(Event.COMPLETE,onComplete);
+loader.addEventListener(Event.COMPLETE,onComplete);
+loader.add(onComplete);
+
+Explicar diferencia entre Movieclip y Sprite
+
+Crear un repositorio llamado Prototipado-CT1
+Grabar sus respuestas en un txt
+Enviar la ruta del repo al correo: valdivialuis1989@gmail.com, con el asunto PROTOTIPADO>3P-4P>CT#1
+
+
+
+1. loader.addEventListener(Event.COMPLETE, onComplete);
+
+2. El movieclip  y el sprite son basicamente lo mismo con excepcion
+de que el movieclip cuenta con linea de tiempo y el sprite no.
